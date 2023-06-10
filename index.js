@@ -26,3 +26,12 @@ let all = arr.filter(all => {
 
 console.log({others, object, boolean, number, string});
 console.log(Math.max(others, object, boolean, number, string));
+
+let newArray = []
+arr.filter(i => {
+    if (i) {
+        newArray.push(i)
+    }
+})
+
+console.log(newArray);
